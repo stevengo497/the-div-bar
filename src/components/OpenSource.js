@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class Contribute extends Component {
+class OpenSource extends Component {
     render () {
         return (
             <div>
-                <h1>Contribute</h1>
+                <h1>Open Source</h1>
             </div>
         )
     }
 }
 
-export default Contribute;
+export default OpenSource;

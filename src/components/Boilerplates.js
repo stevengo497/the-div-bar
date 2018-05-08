@@ -1,13 +1,13 @@
 import React, { Component} from 'react';
 
-class Food extends Component {
+class Boilerplates extends Component {
     render () {
         return (
             <div>
-                <h1>Food Menu</h1>
+                <h1>Boilerplates</h1>
             </div>
         )
     }
 }
 
-export default Food;
+export default Boilerplates;

@@ -1,13 +1,13 @@
 import React, { Component} from 'react';
 
-class Drinks extends Component {
+class TheVar extends Component {
     render () {
         return (
             <div>
-                <h1>Drinks Menu</h1>
+                <h1>The Var</h1>
             </div>
         )
     }
 }
 
-export default Drinks;
+export default TheVar;
