@@ -7,17 +7,7 @@ class Home extends Component {
     render () {
         return (
             <div>
-                <Carousel>
-                      <Carousel.Item>
-                        <img  src={('./images/barimage.jpg')} />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img  src={('./images/garnisheddrink.jpg')} />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img  src={('./images/relax.jpg')} />
-                      </Carousel.Item>
-                    </Carousel>
+                <h1 class="line-1 anim-typewriter">Welcome to the div(e) bar</h1>
             </div>
         )
     }
