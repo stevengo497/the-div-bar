@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
-
+import {Carousel} from 'react-bootstrap';
+import {Navbar, Nav, NavItem} from 'react-bootstrap';
+import './Home.css';
 
 class Home extends Component {
     render () {
         return (
             <div>
-                <h1>Homepage</h1>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"/>
-                  <div class="carousel-inner"/>
-                    <div class="carousel-item active"/>
-                      <img class="d-block w-100" src={('./images/barimage.jpg')} alt="First slide"/>
-                    <div class="carousel-item"/>
-                      <img class="d-block w-100" src={('./images/garnisheddrink.jpg')} alt="Second slide"/>
-                    <div class="carousel-item"/>
-                      <img class="d-block w-100" src={('./images/relax.jpg')} alt="Third slide"/>
+                <Carousel>
+                      <Carousel.Item>
+                        <img  src={('./images/barimage.jpg')} />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img  src={('./images/garnisheddrink.jpg')} />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img  src={('./images/relax.jpg')} />
+                      </Carousel.Item>
+                    </Carousel>
             </div>
         )
     }
