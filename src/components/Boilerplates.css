@@ -8,7 +8,25 @@
     height: 500px;
 }
 
+#appetizer:hover {
+    opacity: .3;
+}
+
 #cheeseburger{
     width: 50%;
     height: 500px;
 }
+
+#cheeseburger:hover {
+    opacity: .3;
+}
+
+/* Animation */
+.anim-boilerplates {
+  animation: typewriter-boilerplates 3s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter-boilerplates{
+  from{width: 0;}
+  to{width: 8em;}
+  }

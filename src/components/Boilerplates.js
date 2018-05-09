@@ -5,8 +5,7 @@ class Boilerplates extends Component {
     render () {
         return (
             <div>
-                <img id="barfood"  src={('./images/barfood.jpeg')} />
-                <br/>
+                <h1 class="line-1 anim-boilerplates">Boilerplates</h1>
                 <img id="appetizer"  src={('./images/appetizer.jpeg')} />
                 <img id="cheeseburger"  src={('./images/cheeseburger.jpeg')} />
             </div>

@@ -2,3 +2,13 @@
     width: 100%;
     height: auto;
 }
+
+/* Animation */
+.anim-var {
+  animation: typewriter-var 2s steps(24) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter-var{
+  from{width: 0;}
+  to{width: 5em;}
+  }
