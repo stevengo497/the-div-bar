@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import './Contact.css';
 
 class Contact extends Component {
     render () {
         return (
             <div>
-                <h1>Contact</h1>
+                <img id="contactPic"  src={('./images/relax.jpg')} />
             </div>
         )
     }

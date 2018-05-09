@@ -10,7 +10,7 @@ class Header extends Component { // also the Navigation Bar
                 <Navbar>
                   <Navbar.Header>
                     <Navbar.Brand>
-                      The div(e) bar
+                      The &lt;div&gt; bar
                     </Navbar.Brand>
                   </Navbar.Header>
                   <Nav>

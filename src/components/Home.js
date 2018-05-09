@@ -7,7 +7,7 @@ class Home extends Component {
     render () {
         return (
             <div>
-                <h1 class="line-1 anim-typewriter">Welcome to the div(e) bar</h1>
+                <h1 class="line-1 anim-typewriter">Welcome to the &lt;div&gt; bar</h1>
             </div>
         )
     }
