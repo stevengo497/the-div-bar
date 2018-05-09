@@ -1,3 +1,8 @@
+#theHomePic {
+    width: 100%;
+    height: auto;
+}
+
 /* Global */
 html{
   min-height: 100%;

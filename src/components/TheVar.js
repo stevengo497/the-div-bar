@@ -6,7 +6,7 @@ class TheVar extends Component {
         return (
             <div>
                 <h1 class="line-1 anim-var">The Var</h1>
-                <img id="theVarPic"  src={('./images/barimage.jpg')} />
+                <img id="theVarPic"  src={('./images/newbar.jpeg')} />
             </div>
         )
     }

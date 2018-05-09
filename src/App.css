@@ -1,6 +1,7 @@
 Header {
 
     z-index: 1;
-    width: 100%;
+    width: 60%;
     font-size: 17px;
+    margin: 0 auto;
 }
