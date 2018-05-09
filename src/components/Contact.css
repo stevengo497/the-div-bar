@@ -1,6 +1,14 @@
 #contactPic {
     width: 100%;
     height: auto;
+    position: relative;
+}
+#formio {
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
 }
 
 .anim-contact {
