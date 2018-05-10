@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import './TheVar.css';
+import '../styling/TheVar.css';
 
 class TheVar extends Component {
     render () {

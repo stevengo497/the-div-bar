@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
-import './Home.css';
+import '../styling/Home.css';
 
 class Home extends Component {
     render () {
