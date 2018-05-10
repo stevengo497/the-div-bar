@@ -14,19 +14,23 @@ class Header extends Component { // also the Navigation Bar
                     </Navbar.Brand>
                   </Navbar.Header>
                   <Nav>
-                    <NavItem eventKey={1} href="#">
+                    <NavItem to={"/"} eventKey={1}> 
                       <Link to={"/"}>Home</Link>{" "}
+
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem to={"/thevar"} eventKey={2}>
                       <Link to={"/thevar"}>The Var</Link>{" "}
+
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem to={"/boilerplates"} eventKey={3}>
                       <Link to={"/boilerplates"}>Boilerplates</Link>{" "}
+
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem to={"/opensource"} eventKey={4}>
                       <Link to={"/opensource"}>Open Source</Link>{" "}
+
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem to={"/contact"} eventKey={5}>
                       <Link to={"/contact"}>Contact</Link>{" "}
                     </NavItem>
                   </Nav>
