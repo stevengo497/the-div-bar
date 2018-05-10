@@ -14,14 +14,15 @@ class Boilerplates extends Component {
     }
     render () {
         let lgClose = () => this.setState({ lgShow: false });
+        let largeClose = () => this.setState({ largeClose: false });
         return (
             <div>
                 <h1 className="line-1 anim-boilerplates">Boilerplates</h1>
                         <img id="appetizer"  src={('./images/appetizer.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
                         <AppetizerMenu show={this.state.lgShow} onHide={lgClose} />
 
-                <img id="cheeseburger"  src={('./images/cheeseburger.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
-                        <BoilerplateMenu show={this.state.lgShow} onHide={lgClose} />
+                <img id="cheeseburger"  src={('./images/cheeseburger.jpeg')} onClick={() => this.setState({ largeClose: true })}/>
+                        <BoilerplateMenu show={this.state.largeClose} onHide={largeClose} />
             </div>
         )
     }
