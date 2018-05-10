@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import '../styling/Boilerplates.css';
 import AppetizerMenu from './AppetizerMenu';
+import BoilerplateMenu from './BoilerplateMenu';
 import {Modal, Button, ButtonToolbar} from 'react-bootstrap';
 
 class Boilerplates extends Component {
@@ -19,7 +20,8 @@ class Boilerplates extends Component {
                         <img id="appetizer"  src={('./images/appetizer.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
                         <AppetizerMenu show={this.state.lgShow} onHide={lgClose} />
 
-                <img id="cheeseburger"  src={('./images/cheeseburger.jpeg')} />
+                <img id="cheeseburger"  src={('./images/cheeseburger.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
+                        <BoilerplateMenu show={this.state.lgShow} onHide={lgClose} />
             </div>
         )
     }
