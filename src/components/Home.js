@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
-import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import '../styling/Home.css';
 
 class Home extends Component {
@@ -8,7 +7,9 @@ class Home extends Component {
         return (
             <div>
                 <h1 className="line-1 anim-typewriter">Welcome to the &lt;div&gt; bar</h1>
-                <img id="theHomePic"  src={('./images/storefront.jpeg')} />
+                <video autoPlay>
+                    <source id="theHomePic"  src={('./images/beerglass.mp4')} type="video/mp4"/>
+                </video>
             </div>
         )
     }

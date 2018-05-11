@@ -1,6 +1,5 @@
 import React from 'react';
-import {Modal, Button, ButtonToolbar} from 'react-bootstrap';
-import '../styling/AppetizerMenu.css';
+import {Modal} from 'react-bootstrap';
 
 class AppetizerMenu extends React.Component {
   render() {

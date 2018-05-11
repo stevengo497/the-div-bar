@@ -1,6 +1,5 @@
 import React from 'react';
-import {Modal, Button, ButtonToolbar} from 'react-bootstrap';
-import '../styling/BoilerplateMenu.css';
+import {Modal} from 'react-bootstrap';
 
 class BoilerplateMenu extends React.Component {
   render() {

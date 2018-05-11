@@ -1,6 +1,5 @@
 import React, { Component} from 'react';
 import '../styling/TheVar.css';
-import {Modal, Button, ButtonToolbar} from 'react-bootstrap';
 import SpecialityMenu from './Speciality';
 import AlegorithmMenu from './Alegorithm';
 
