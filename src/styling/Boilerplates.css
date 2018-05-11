@@ -7,6 +7,7 @@
 .appetizerWrapper {
     width: 45%;
     display: inline-block;
+    margin-left: 3%;
 }
 
 .appetizerWord {
@@ -30,6 +31,7 @@
 .boilerplateWrapper {
     width: 45%;
     display: inline-block;
+    margin-left: 5%;
 }
 
 .boilerplate{
@@ -65,7 +67,7 @@
 }
 @keyframes typewriter-boilerplates{
   from{width: 0;}
-  to{width: 8em;}
+  to{width: 7em;}
   }
 
   @keyframes blinkTextCursor{
