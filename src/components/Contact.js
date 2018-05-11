@@ -9,7 +9,7 @@ class Contact extends Component {
             <div>
                 <h1 className="line-1 anim-contact">Contact Us</h1>
                 <div id="formio"></div>
-                {/* <img id="contactPic" src={('./images/relax.jpg')} /> */}
+                <img id="contactPic" src={('./images/relax.jpg')} />
             </div>
         )
     }

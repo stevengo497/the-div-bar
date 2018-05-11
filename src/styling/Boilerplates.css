@@ -1,25 +1,62 @@
-#barfood {
+.appetizer {
     width: 100%;
     height: auto;
+
 }
 
-#appetizer {
-    width: 50%;
-    height: 500px;
+.appetizerWrapper {
+    width: 45%;
+    display: inline-block;
 }
 
-#appetizer:hover {
+.appetizerWord {
+    display: none;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 50px;
+}
+
+.appetizerWrapper:hover .appetizerWord {
+    display: block;
+}
+
+.appetizer:hover {
     opacity: .3;
 }
 
-#cheeseburger{
-    width: 50%;
-    height: 500px;
+.boilerplateWrapper {
+    width: 45%;
+    display: inline-block;
 }
 
-#cheeseburger:hover {
+.boilerplate{
+    width: 100%;
+    height: auto;
+
+}
+
+.boilerplateWord {
+    display: none;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 9%;
+    font-size: 50px;
+}
+
+.boilerplateWrapper:hover .boilerplateWord {
+    display: block;
+}
+
+.boilerplate:hover {
     opacity: .3;
 }
+
+
 
 /* Animation */
 .anim-boilerplates {

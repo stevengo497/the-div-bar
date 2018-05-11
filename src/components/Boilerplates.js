@@ -18,11 +18,16 @@ class Boilerplates extends Component {
         return (
             <div>
                 <h1 className="line-1 anim-boilerplates">Boilerplates</h1>
-                        <img id="appetizer"  src={('./images/appetizer.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
+                    <div className="appetizerWrapper">
+                            <span className="appetizerWord">&lt;App&gt;etizers</span>
+                            <img className="appetizer"  src={('./images/appetizer.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
                         <AppetizerMenu show={this.state.lgShow} onHide={lgClose} />
-
-                <img id="cheeseburger"  src={('./images/cheeseburger.jpeg')} onClick={() => this.setState({ largeClose: true })}/>
+                    </div>
+                    <div className="boilerplateWrapper">
+                            <span className="boilerplateWord">Boilerplates</span>
+                            <img className="boilerplate"  src={('./images/cheeseburger.jpeg')} onClick={() => this.setState({ largeClose: true })}/>
                         <BoilerplateMenu show={this.state.largeClose} onHide={largeClose} />
+                    </div>
             </div>
         )
     }
