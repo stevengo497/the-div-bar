@@ -7,15 +7,9 @@ class BoilerplateMenu extends React.Component {
     return (
       <Modal
         {...this.props}
-        bsSize="medium"
-        aria-labelledby="contained-modal-title-lg"
+        bsSize="small"
       >
-        <Modal.Body >
             <img className="boilerplateModal" src={("./images/boilerplates.png")}/>
-        </Modal.Body>
-
-          <Button onClick={this.props.onHide}>Close</Button>
-
       </Modal>
     );
   }
