@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import { Link } from 'react-router-dom';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
-import '../styling/Header.css';
+
 
 class Header extends Component { // also the Navigation Bar
     render () {
@@ -23,11 +23,7 @@ class Header extends Component { // also the Navigation Bar
 
                     </NavItem>
                     <NavItem eventKey={3}>
-                      <Link to={"/boilerplates"}>Boilerplates</Link>{" "}
-
-                    </NavItem>
-                    <NavItem eventKey={4}>
-                      <Link to={"/opensource"}>Open Source</Link>{" "}
+                      <Link to={"/boilerplates"}>Food Menu</Link>{" "}
 
                     </NavItem>
                     <NavItem eventKey={5}>
