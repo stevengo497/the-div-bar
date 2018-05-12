@@ -28,6 +28,7 @@ class Header extends Component { // also the Navigation Bar
                     </NavItem>
                     <NavItem eventKey={5}>
                       <Link to={"/contact"}>Contact</Link>{" "}
+
                     </NavItem>
                   </Nav>
               </Navbar>

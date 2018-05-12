@@ -1,6 +1,7 @@
 .specialityPic {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .specialityWrapper {
@@ -37,6 +38,7 @@
 .alePic {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 
 }
 

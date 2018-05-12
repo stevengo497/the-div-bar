@@ -1,8 +1,24 @@
-video {
-    width: 60%;
-    height: auto;
-    margin-left: 20%;
+.beer {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
 }
+.beer.gone {
+  display: none;
+}
+
+
+#cartoonBar{
+    width: 25%;
+    height: auto;
+    position: relative;
+}
+
 
 /* Global */
 html{
@@ -12,9 +28,9 @@ html{
 body{
   height: calc(100vh - 8em);
   padding: 4em;
-  color: rgba(255,255,255,.75);
+  color: rgba(0,0,0,.75);
   font-family: 'Anonymous Pro', monospace;
-  background-color: rgb(25,25,25);
+  background: url('/images/concrete.png');
 }
 
 .line-1{

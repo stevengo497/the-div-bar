@@ -1,6 +1,7 @@
 .appetizer {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .appetizerWrapper {
@@ -14,7 +15,7 @@
     text-align: center;
     z-index: 1;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 11%;
     margin-left: 8%;
     font-size: 50px;
 }
@@ -37,6 +38,7 @@
 .boilerplate{
     width: 100%;
     height: auto;
+    border-radius: 50%;
 
 }
 
@@ -45,7 +47,7 @@
     text-align: center;
     z-index: 1;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 11%;
     margin-left: 9%;
     font-size: 50px;
 }
