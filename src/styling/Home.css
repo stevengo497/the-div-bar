@@ -1,22 +1,29 @@
+.barWrapper {
+    width: 100%;
+    height: auto;
+    transform: translateX(23%);
+}
+
 .beer {
-  display: block;
-  width: 200px;
-  height: 200px;
-  background-color: gray;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
+    width: 50%;
   cursor: pointer;
 }
 .beer.gone {
   display: none;
 }
 
-
-#cartoonBar{
-    width: 25%;
+#barPic {
+    position: absolute;
+    width: 55%;
     height: auto;
+}
+
+#beer1 {
     position: relative;
+    width: 5%;
+    height: auto;
+    transform: translate(200%, 190%);
+
 }
 
 

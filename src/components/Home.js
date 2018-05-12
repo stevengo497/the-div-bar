@@ -18,7 +18,10 @@ class Home extends Component {
         return (
             <div>
                 <h1 className="line-1 anim-typewriter">Welcome to the &lt;div&gt; bar</h1>
-                    <img className={clickedClass.join(' ')} src={('/images/cartoonbar2.jpg')} onClick={(e) => this.handleClick(e)}/>
+                <div className="barWrapper">
+                    <img id="barPic" src={('/images/cartoonbar2.jpg')} />
+                    <img id="beer1" className={clickedClass.join(' ')} src={('/images/beer1.png')} onClick={(e) => this.handleClick(e)}/>
+                </div>
             </div>
         )
     }
