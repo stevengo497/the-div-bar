@@ -12,8 +12,10 @@ class Home extends Component {
   }
     render () {
         let clickedClass = ["beer"];
+        let clickedSmoke = ['explosion']
         if(this.state.addClass) {
             clickedClass.push('gone');
+            clickedSmoke.push('smoke');
         }
         return (
             <div>
@@ -21,7 +23,9 @@ class Home extends Component {
                 <div className="barWrapper">
                     <img id="barPic" src={('/images/cartoonbar2.jpg')} />
                     <img id="beer1" className={clickedClass.join(' ')} src={('/images/beer1.png')} onClick={(e) => this.handleClick(e)}/>
-                </div>
+                    <img id="explosion1" className={clickedSmoke.join(' ')}  src={('/images/explosion.png')}/>
+                    </div>
+
             </div>
         )
     }

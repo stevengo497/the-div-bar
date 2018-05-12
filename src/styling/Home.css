@@ -12,6 +12,16 @@
   display: none;
 }
 
+.explosion{
+  display: none;
+}
+
+.explosion.smoke {
+  position: relative;
+  display: block;
+}
+
+
 #barPic {
     position: absolute;
     width: 55%;
@@ -23,8 +33,15 @@
     width: 5%;
     height: auto;
     transform: translate(200%, 190%);
-
 }
+
+#explosion1 {
+    position: relative;
+    width: 10%;
+    height: auto;
+    transform: translate(80%, 175%);
+}
+
 
 
 /* Global */
