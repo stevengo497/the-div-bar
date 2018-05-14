@@ -42,3 +42,31 @@ body{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+
+.imageWrapper {
+    text-align: center;
+    width:100%;
+
+}
+
+#newbarPic {
+    position: relative;
+    width:50%;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#winePic {
+    position: relative;
+    display: inline;
+    width:15%;
+    border-radius: 10px;
+}
+
+#cheersPic {
+    position: relative;
+    width: 15%;
+    display: inline;
+    border-radius: 10px;
+}

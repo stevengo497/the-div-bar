@@ -1,13 +1,14 @@
 .specialityPic {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .specialityWrapper {
     width: 45%;
     display: inline-block;
     margin-left: 3%;
+    margin-top: 5%;
 }
 
 .specialityWord {
@@ -38,7 +39,7 @@
 .alePic {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10px;
 
 }
 
