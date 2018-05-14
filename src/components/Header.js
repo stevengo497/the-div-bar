@@ -13,13 +13,13 @@ class Header extends Component { // also the Navigation Bar
 
                           <Link to={"/"} id="homepageLink">Homepage</Link>{" "}
 
-                          <Link to={"/readme"} id="readMeLink">Read Me</Link>{" "}
-
                           <Link to={"/thevar"} id="theVarLink">The Var</Link>{" "}
 
                           <Link to={"/boilerplates"} id="foodMenuLink">Food Menu</Link>{" "}
 
                           <Link to={"/contact"} id="ContactLink">Contact</Link>{" "}
+
+                          <Link to={"/readme"} id="readMeLink">Read Me</Link>{" "}
                      </div>
 
             </header>

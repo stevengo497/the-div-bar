@@ -15,7 +15,6 @@
 
 #readMeLink {
     position: relative;
-    padding-right: 6%;
     opacity: 0;
 }
 
@@ -33,5 +32,6 @@
 
 #ContactLink {
     position: relative;
+        padding-right: 6%;
     opacity: 0;
 }
