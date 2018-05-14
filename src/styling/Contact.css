@@ -8,12 +8,12 @@
 }
 
 .anim-contact {
-  animation: typewriter-contact 2s steps(24) 1s 1 normal both,
+  animation: typewriter-contact 3s steps(24) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter-contact{
   from{width: 0;}
-  to{width: 7em;}
+  to{width: 10em;}
   }
 
   @keyframes blinkTextCursor{

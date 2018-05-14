@@ -69,7 +69,7 @@
 }
 @keyframes typewriter-var{
   from{width: 0;}
-  to{width: 5em;}
+  to{width: 8em;}
   }
 
   @keyframes blinkTextCursor{

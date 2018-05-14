@@ -70,7 +70,7 @@
 }
 @keyframes typewriter-boilerplates{
   from{width: 0;}
-  to{width: 7em;}
+  to{width: 10em;}
   }
 
   @keyframes blinkTextCursor{

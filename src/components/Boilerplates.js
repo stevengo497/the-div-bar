@@ -17,7 +17,7 @@ class Boilerplates extends Component {
         let largeClose = () => this.setState({ largeClose: false });
         return (
             <div>
-                <h1 className="line-1 anim-boilerplates">Food Menu</h1>
+                <h1 className="line-1 anim-boilerplates">&lt; Food Menu /&gt;</h1>
                     <div className="appetizerWrapper">
                             <span className="appetizerWord">&lt;App&gt;etizers</span>
                             <img className="appetizer"  src={('./images/appetizer.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
