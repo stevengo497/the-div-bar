@@ -1,11 +1,10 @@
 
-
 #container {
     font-size: 25px;
     position: absolute;
     top: 0;
     width: 100%;
-    margin-left: -10%;
+    margin-left: -12%;
 }
 
 #homepageLink {
@@ -14,9 +13,15 @@
     opacity: 0;
 }
 
+#readMeLink {
+    position: relative;
+    padding-right: 6%;
+    opacity: 0;
+}
+
 #theVarLink {
     position: relative;
-    padding-right: 5%;
+    padding-right: 6%;
     opacity: 0;
 }
 
