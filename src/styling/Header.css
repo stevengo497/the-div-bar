@@ -1,0 +1,32 @@
+
+
+#container {
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: -10%;
+}
+
+#homepageLink {
+    position: relative;
+    padding-right: 5%;
+    opacity: 0;
+}
+
+#theVarLink {
+    position: relative;
+    padding-right: 5%;
+    opacity: 0;
+}
+
+#foodMenuLink {
+    position: relative;
+    padding-right: 4%;
+    opacity: 0;
+}
+
+#ContactLink {
+    position: relative;
+    opacity: 0;
+}

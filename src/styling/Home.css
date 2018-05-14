@@ -1,48 +1,3 @@
-.barWrapper {
-    width: 100%;
-    height: auto;
-    transform: translateX(23%);
-}
-
-.beer {
-    width: 50%;
-  cursor: pointer;
-}
-.beer.gone {
-  display: none;
-}
-
-.explosion{
-  display: none;
-}
-
-.explosion.smoke {
-  position: relative;
-  display: block;
-}
-
-
-#barPic {
-    position: absolute;
-    width: 55%;
-    height: auto;
-}
-
-#beer1 {
-    position: relative;
-    width: 5%;
-    height: auto;
-    transform: translate(200%, 190%);
-}
-
-#explosion1 {
-    position: relative;
-    width: 10%;
-    height: auto;
-    transform: translate(80%, 175%);
-}
-
-
 
 /* Global */
 html{
@@ -52,9 +7,12 @@ html{
 body{
   height: calc(100vh - 8em);
   padding: 4em;
-  color: rgba(0,0,0,.75);
+  color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;
-  background: url('/images/concrete.png');
+  background-image: url('/images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .line-1{
