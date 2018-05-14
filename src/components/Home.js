@@ -6,7 +6,7 @@ class Home extends Component {
     render () {
         return (
             <div>
-                <h1 className="line-1 anim-typewriter">Welcome to the &lt;div&gt; bar</h1>
+                <h1 className="line-1 anim-typewriter">Welcome to the &lt;<span>div</span>&gt; bar</h1>
                 <div className="imageWrapper">
                     <img id="cheersPic" src={'/images/cheers.jpeg'}/>
                     <img id="newbarPic" src={'/images/newbar.jpeg'}/>

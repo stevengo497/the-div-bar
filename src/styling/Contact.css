@@ -1,10 +1,23 @@
+span {
+    color: #BC6663;
+}
+
+#contactUsContainer {
+    margin: 0 auto;
+}
 
 #formio {
     z-index: 1;
-    position: absolute;
+    /* position: absolute; */
     width: 50%;
-    margin-left: 20%;
-    margin-top: 2%;
+    margin-left: 27%;
+    /* margin-top: 2%; */
+}
+
+#contactBtn {
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255,255,255,.25);
 }
 
 .anim-contact {
@@ -13,7 +26,7 @@
 }
 @keyframes typewriter-contact{
   from{width: 0;}
-  to{width: 10em;}
+  to{width: 9em;}
   }
 
   @keyframes blinkTextCursor{

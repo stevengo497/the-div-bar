@@ -2,17 +2,22 @@ h1 {
     margin-left: 5%;
 }
 
+span {
+    color: #BC6663;
+}
+
  #readMeText {
-    color: rgba(255,255,255,.25);;
+    color: rgba(255,255,255,.25);
+    font-size: 30px;
 }
 
 .anim-readme {
-  animation: typewriter-contact 3s steps(24) 1s 1 normal both,
+  animation: typewriter-readme 3s steps(24) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter-readme{
   from{width: 0;}
-  to{width: 9em;}
+  to{width: 7em;}
   }
 
   @keyframes blinkTextCursor{

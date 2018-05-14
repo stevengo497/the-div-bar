@@ -16,7 +16,7 @@ class TheVar extends Component {
         let largeClose = () => this.setState({ largeClose: false });
         return (
             <div>
-                <h1 className="line-1 anim-var">&lt; The Var /&gt;</h1>
+                <h1 className="line-1 anim-var">&lt;<span>theVar</span>/&gt;</h1>
                 <div className="specialityWrapper">
                         <span className="specialityWord">Speciality Drinks</span>
                         <img className="specialityPic"  src={('./images/garnisheddrink.jpg')} onClick={() => this.setState({ lgShow: true })}/>

@@ -1,7 +1,12 @@
+span {
+    color: #BC6663;
+}
+
 .specialityPic {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
 }
 
 .specialityWrapper {
@@ -40,6 +45,7 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
 
 }
 
@@ -70,7 +76,7 @@
 }
 @keyframes typewriter-var{
   from{width: 0;}
-  to{width: 8em;}
+  to{width: 6em;}
   }
 
   @keyframes blinkTextCursor{

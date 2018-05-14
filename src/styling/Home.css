@@ -12,7 +12,10 @@ body{
   background-image: url('/images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+span {
+    color: #BC6663;
 }
 
 .line-1{
@@ -44,6 +47,7 @@ body{
 }
 
 .imageWrapper {
+    margin-top: 5%;
     text-align: center;
     width:100%;
 
@@ -55,6 +59,7 @@ body{
     border-radius: 10px;
     margin-left: 2%;
     margin-right: 2%;
+    border: 5px solid rgba(255,255,255,.75);
 }
 
 #winePic {
@@ -62,6 +67,7 @@ body{
     display: inline;
     width:15%;
     border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
 }
 
 #cheersPic {
@@ -69,4 +75,5 @@ body{
     width: 15%;
     display: inline;
     border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
 }

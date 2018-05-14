@@ -1,7 +1,12 @@
+span {
+    color: #BC6663;
+}
+
 .appetizer {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
 }
 
 .appetizerWrapper {
@@ -40,6 +45,7 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
 
 }
 
@@ -66,12 +72,12 @@
 
 /* Animation */
 .anim-boilerplates {
-  animation: typewriter-boilerplates 3s steps(44) 1s 1 normal both,
+  animation: typewriter-boilerplates 3s steps(24) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter-boilerplates{
   from{width: 0;}
-  to{width: 10em;}
+  to{width: 8em;}
   }
 
   @keyframes blinkTextCursor{
