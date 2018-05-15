@@ -10,28 +10,28 @@
 #homepageLink {
     position: relative;
     padding-right: 6%;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 #readMeLink {
     position: relative;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 #theVarLink {
     position: relative;
     padding-right: 9%;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 #foodMenuLink {
     position: relative;
     padding-right: 6%;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 #ContactLink {
     position: relative;
     padding-right: 8%;
-    /* opacity: 0; */
+    opacity: 0;
 }
