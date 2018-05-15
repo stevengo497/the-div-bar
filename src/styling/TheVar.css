@@ -1,75 +1,76 @@
 span {
     color: #BC6663;
 }
-
-.specialityPic {
+#varWrapper {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    border: 5px solid rgba(255,255,255,.75);
+    text-align: center;
 }
 
 .specialityWrapper {
-    width: 45%;
+    width: 40%;
+    text-align: center;
+    height: 350px;
     display: inline-block;
-    margin-left: 3%;
-    margin-top: 5%;
+    margin: 3%;
+    border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
+    background-image: url('/images/garnisheddrink.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .specialityWord {
-    display: none;
-    text-align: center;
+    visibility: hidden;
     z-index: 1;
-    position: absolute;
-    margin-top: 9%;
-    margin-left: 3%;
-    font-size: 50px;
-    color: rgba(255,255,255,.75);
+    position: relative;
+    font-size: 3em;
+    color: rgba(255,255,255);
+    top: 40%;
 }
 
 .specialityWrapper:hover .specialityWord {
-    display: block;
+    visibility: visible;
 }
 
-.specialityPic:hover {
-    opacity: .3;
+.specialityWrapper:hover {
     cursor: pointer;
+    opacity: .75;
 }
 
 .aleWrapper {
-    width: 45%;
+    width: 40%;
+    height: 350px;
     display: inline-block;
-    margin-left: 5%;
-}
-
-.alePic {
-    width: 100%;
-    height: auto;
+    text-align: center;
+    margin: 3%;
     border-radius: 10px;
     border: 5px solid rgba(255,255,255,.75);
-
+    background-image: url('/images/beer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.aleWord {
-    display: none;
-    text-align: center;
+.aleWord{
+    visibility: hidden;
     z-index: 1;
-    position: absolute;
-    margin-top: 9%;
-    margin-left: 9%;
-    font-size: 50px;
-    color: rgba(255,255,255,.75);
+    position: relative;
+    font-size: 3em;
+    color: rgba(255,255,255);
+    top: 40%;
 }
 
 .aleWrapper:hover .aleWord {
-    display: block;
+    visibility: visible;
 }
 
-.alePic:hover {
-    opacity: .3;
+
+.aleWrapper:hover {
     cursor: pointer;
-}
+    opacity: .75;
 
+}
 
 /* Animation */
 .anim-var {

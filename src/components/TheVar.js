@@ -15,17 +15,15 @@ class TheVar extends Component {
         let lgClose = () => this.setState({ lgShow: false });
         let largeClose = () => this.setState({ largeClose: false });
         return (
-            <div>
+            <div id="varWrapper">
                 <h1 className="line-1 anim-var">&lt;<span>theVar</span>/&gt;</h1>
-                <div className="specialityWrapper">
-                        <span className="specialityWord">Speciality Drinks</span>
-                        <img className="specialityPic"  src={('./images/garnisheddrink.jpg')} onClick={() => this.setState({ lgShow: true })}/>
                     <SpecialityMenu show={this.state.lgShow} onHide={lgClose} />
+                        <div className="specialityWrapper" onClick={() => this.setState({ lgShow: true })}>
+                            <div className="specialityWord">Speciality Drinks</div>
                 </div>
-                <div className="aleWrapper">
-                        <span className="aleWord">ALEgorithms</span>
-                        <img className="alePic"  src={('./images/beer.jpg')} onClick={() => this.setState({ largeClose: true })}/>
                     <AlegorithmMenu show={this.state.largeClose} onHide={largeClose} />
+                        <div className="aleWrapper" onClick={() => this.setState({ largeClose: true })}>
+                            <div className="aleWord">ALEgorithms</div>
                 </div>
             </div>
         )

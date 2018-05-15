@@ -1,73 +1,73 @@
 span {
     color: #BC6663;
 }
-
-.appetizer {
+#menuWrapper {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    border: 5px solid rgba(255,255,255,.75);
+    text-align: center;
 }
 
 .appetizerWrapper {
-    width: 45%;
+    width: 40%;
+    text-align: center;
+    height: 350px;
     display: inline-block;
-    margin-left: 3%;
-    margin-top: 5%;
+    margin: 3%;
+    border-radius: 10px;
+    border: 5px solid rgba(255,255,255,.75);
+    background-image: url('/images/appetizer.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .appetizerWord {
-    display: none;
-    text-align: center;
+    visibility: hidden;
     z-index: 1;
-    position: absolute;
-    margin-top: 9%;
-    margin-left: 8%;
-    font-size: 50px;
-    color: rgba(255,255,255,.75);
+    position: relative;
+    font-size: 3em;
+    color: rgba(255,255,255);
+    top: 40%;
 }
 
 .appetizerWrapper:hover .appetizerWord {
-    display: block;
+    visibility: visible;
 }
 
-.appetizer:hover {
-    opacity: .3;
+.appetizerWrapper:hover {
     cursor: pointer;
+    opacity: .75;
 }
 
 .boilerplateWrapper {
-    width: 45%;
+    width: 40%;
+    height: 350px;
     display: inline-block;
-    margin-left: 5%;
-}
-
-.boilerplate{
-    width: 100%;
-    height: auto;
+    text-align: center;
+    margin: 3%;
     border-radius: 10px;
     border: 5px solid rgba(255,255,255,.75);
-
+    background-image: url('/images/cheeseburger.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .boilerplateWord {
-    display: none;
-    text-align: center;
+    visibility: hidden;
     z-index: 1;
-    position: absolute;
-    margin-top: 9%;
-    margin-left: 9%;
-    font-size: 50px;
-    color: rgba(255,255,255,.75);
+    position: relative;
+    font-size: 3em;
+    color: rgba(255,255,255);
+    top: 40%;
 }
 
 .boilerplateWrapper:hover .boilerplateWord {
-    display: block;
+    visibility: visible;
 }
 
-.boilerplate:hover {
-    opacity: .3;
+.boilerplateWrapper:hover {
     cursor: pointer;
+    opacity: .75;
 }
 
 

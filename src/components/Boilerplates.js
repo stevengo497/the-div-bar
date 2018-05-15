@@ -16,17 +16,15 @@ class Boilerplates extends Component {
         let lgClose = () => this.setState({ lgShow: false });
         let largeClose = () => this.setState({ largeClose: false });
         return (
-            <div>
+            <div id="menuWrapper">
                 <h1 className="line-1 anim-boilerplates">&lt;<span>foodMenu</span>/&gt;</h1>
-                    <div className="appetizerWrapper">
-                            <span className="appetizerWord">&lt;App&gt;etizers</span>
-                            <img className="appetizer"  src={('./images/appetizer.jpeg')} onClick={() => this.setState({ lgShow: true })}/>
-                        <AppetizerMenu show={this.state.lgShow} onHide={lgClose} />
-                    </div>
-                    <div className="boilerplateWrapper">
-                            <span className="boilerplateWord">Boilerplates</span>
-                            <img className="boilerplate"  src={('./images/cheeseburger.jpeg')} onClick={() => this.setState({ largeClose: true })}/>
-                        <BoilerplateMenu show={this.state.largeClose} onHide={largeClose} />
+                    <AppetizerMenu show={this.state.lgShow} onHide={lgClose} />
+                        <div className="appetizerWrapper" onClick={() => this.setState({ lgShow: true })}>
+                            <div className="appetizerWord">&lt;App&gt;etizers</div>
+                        </div>
+                    <BoilerplateMenu show={this.state.largeClose} onHide={largeClose} />
+                        <div className="boilerplateWrapper" onClick={() => this.setState({ largeClose: true })}>
+                            <div className="boilerplateWord">Boilerplates</div>
                     </div>
             </div>
         )
