@@ -3,35 +3,35 @@
     font-size: 1.5em;
     position: absolute;
     top: 0;
-    width: 75%;
-    margin-left: -12%;
+    width: 100%;
+    margin-left: 15%;
 }
 
 #homepageLink {
     position: relative;
-    padding-right: 5%;
-    opacity: 0;
+    padding-right: 6%;
+    /* opacity: 0; */
 }
 
 #readMeLink {
     position: relative;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 #theVarLink {
     position: relative;
     padding-right: 9%;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 #foodMenuLink {
     position: relative;
-    padding-right: 5%;
-    opacity: 0;
+    padding-right: 6%;
+    /* opacity: 0; */
 }
 
 #ContactLink {
     position: relative;
     padding-right: 8%;
-    opacity: 0;
+    /* opacity: 0; */
 }

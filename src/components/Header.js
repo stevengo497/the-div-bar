@@ -7,7 +7,7 @@ import '../styling/Header.css';
 class Header extends Component { // also the Navigation Bar
     render () {
         return (
-            <header>
+            <navbar>
 
                     <div id="container">
 
@@ -22,7 +22,7 @@ class Header extends Component { // also the Navigation Bar
                           <Link to={"/readme"} id="readMeLink">Read Me</Link>{" "}
                      </div>
 
-            </header>
+            </navbar>
         )
     }
 }
