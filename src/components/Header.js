@@ -11,15 +11,15 @@ class Header extends Component { // also the Navigation Bar
 
                     <div id="container">
 
-                          <Link to={"/"} id="homepageLink">Homepage</Link>{" "}
+                          <Link to={"/"} id="homepageLink">&lt;homePage&gt;</Link>{" "}
 
-                          <Link to={"/thevar"} id="theVarLink">The Var</Link>{" "}
+                          <Link to={"/thevar"} id="theVarLink">&lt;theVar&gt;</Link>{" "}
 
-                          <Link to={"/boilerplates"} id="foodMenuLink">Food Menu</Link>{" "}
+                          <Link to={"/boilerplates"} id="foodMenuLink">&lt;foodMenu&gt;</Link>{" "}
 
-                          <Link to={"/contact"} id="ContactLink">Contact</Link>{" "}
+                          <Link to={"/contact"} id="ContactLink">&lt;contact&gt;</Link>{" "}
 
-                          <Link to={"/readme"} id="readMeLink">Read Me</Link>{" "}
+                          <Link to={"/readme"} id="readMeLink">&lt;readMe&gt;</Link>{" "}
                      </div>
 
             </navbar>
