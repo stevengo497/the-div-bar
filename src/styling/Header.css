@@ -9,28 +9,105 @@ navbar {
 
 #homepageLink {
     color: rgba(255,255,255,.75);
-}
-
-#readMeLink {
-    color: rgba(255,255,255,.75);
+    opacity: 0;
 }
 
 #theVarLink {
     color: rgba(255,255,255,.75);
+    opacity: 0;
 }
 
 #foodMenuLink {
     color: rgba(255,255,255,.75);
+    opacity: 0;
 }
 
 #ContactLink {
     color: rgba(255,255,255,.75);
+    opacity: 0;
 }
 
-@media screen and (max-width: 415px) {
+#readMeLink {
+    color: rgba(255,255,255,.75);
+    opacity: 0;
+}
+
+@media screen and (max-width: 2560px) {
+    .line-1 {
+        font-size: 75px;
+    }
     navbar {
         width: 100%;
-        font-size: 15px;
-        margin: 5px;
+        position: absolute;
+        top: 0;
+        font-size: 45px;
     }
+    #homepageLink {
+        margin-left: -5%;
+    }
+    #theVarLink {
+        margin-left: 3%;
+    }
+    #foodMenuLink {
+        margin-left: 5%;
+    }
+    #ContactLink {
+        margin-left: 4%;
+    }
+    #readMeLink {
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .line-1 {
+        font-size: 50px;
+    }
+    navbar {
+        width: 90%;
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+    }
+    #container{
+        margin-left: 2%;
+    }
+    #homepageLink {
+        margin-left: 2%;
+    }
+    #theVarLink {
+        margin-left: 1%;
+    }
+    #foodMenuLink {
+        margin-left: 1%;
+    }
+    #ContactLink {
+        margin-left: 1%;
+    }
+    #readMeLink {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    navbar {
+        width: 90%;
+        position: absolute;
+        top: 0;
+        font-size: 25px;
+    }
+    #container{
+        margin-left: 4%;
+    }
+    #ContactLink, #readMeLink, #theVarLink, #foodMenuLink {
+        margin-left: 0%;
+    }
+}
+    @media screen and (max-width: 768px) {
+        navbar {
+            width: 90%;
+            position: absolute;
+            top: 0;
+            font-size: 25px;
+        }
 }
